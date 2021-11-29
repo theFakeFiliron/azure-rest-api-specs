@@ -249,27 +249,6 @@
             "create"
           ]
         },
-        "databaseEdition": {
-          "description": "Database edition for the newly created database in the case of an import operation.",
-          "type": "string",
-          "x-ms-mutability": [
-            "create"
-          ]
-        },
-        "serviceObjectiveName": {
-          "description": "Database service level objective for the newly created database in the case of an import operation.",
-          "type": "string",
-          "x-ms-mutability": [
-            "create"
-          ]
-        },
-        "maxSizeBytes": {
-          "description": "Database max size in bytes for the newly created database in the case of an import operation.",
-          "type": "string",
-          "x-ms-mutability": [
-            "create"
-          ]
-        },
         "networkIsolation": {
           "$ref": "#/definitions/NetworkIsolationSettings",
           "description": "Optional resource information to enable network isolation for request.",
